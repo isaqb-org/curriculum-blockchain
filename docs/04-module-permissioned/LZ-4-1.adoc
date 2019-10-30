@@ -1,0 +1,18 @@
+// tag::FEEDBACK[]
+:filename: 04-module-permissioned/LZ-4-1.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-4-1]]
+==== LG 4-1: Permissioned blockchain implementations
+
+* understand the benefits of permissioned blockchain regarding traditional businesses use cases
+* understand the advantages of explicit governance
+** know the differences between in-chain and offchain governance
+** understand how to adjust access, verification, user rights and network structure to fit governance requirements
+* know the trade-offs of reintroducing a certain level of centralisation while maintaining some of the inherent benefits of blockchain technology
+* analyse quality attributes of permissioned blockchains (E.g. Corda, Hyperledger, Enterprise Ethereum)
+** know how to increase the performance by choosing different consensus algorithms
+* know the technological differences in implementing major permissioned blockchains
+// end::EN[]

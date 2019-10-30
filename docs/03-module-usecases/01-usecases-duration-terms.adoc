@@ -1,0 +1,21 @@
+// tag::FEEDBACK[]
+:filename: 05-usecases/01-usecases-duration-terms.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+|===
+| Duration: 150 min. | Exercise time: 90 min.
+|===
+
+This topic area aims to collect and classify the abundant variations of blockchain technologies that have proliferated since Bitcoin.
+It is crucial for the understanding of the participants that the training provider carves out relevant features and compares them across technologies.
+Given the volatile nature of the field, this should be based on regularly updated market research; as such, the flavours listed below are open-ended and should be updated to reflect new developments.
+
+=== Essential terms
+
+Proof-of-Work, Proof-of-Stake, Proof-of-Authority, public blockchains, private blockchains, permissioned blockchains, consensus algorithms, sidechains, state channels, trust, decentralization, immutable history, business processes, onboarding, privacy, security, arbitrators
+// end::EN[]

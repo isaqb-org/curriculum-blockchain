@@ -1,0 +1,9 @@
+// tag::FEEDBACK[]
+:filename: 04-contracts/references.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+=== {references}
+
+* Andreas Antonopoulos, Gavin Wood: "Mastering Ethereum: Building Smart Contracts and Dapps"
+* Consensys: "Ethereum Smart Contract Best Practices, https://consensys.github.io/smart-contract-best-practices/known_attacks/

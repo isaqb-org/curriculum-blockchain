@@ -1,0 +1,41 @@
+// tag::FEEDBACK[]
+:filename: 01-basics/02-curriculum-structure-and-chronological-breakdown.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+=== Curriculum structure and recommended durations
+
+[cols="<,>", options="header"]
+|===
+
+| Content
+| Recommended minimum duration (minutes)
+
+| 1. Blockchain overview and basics
+| 270
+
+| 2. Smart Contracts
+| 180
+
+| 3. Blockchain flavours and their use cases
+| 210
+
+| 4. Permissioned blockchain implementations
+| 120
+
+| 5. Architecting blockchain applications
+| 240
+
+| 6. Example of Blockchain Architecture
+| 60
+
+| Sum
+| 1080 (18h)
+
+|===
+
+[.text-center]
+.Durations
+image:01-basics/chronological_breakdown.png[pdfwidth=75%, role="text-center"]
+// end::EN[]

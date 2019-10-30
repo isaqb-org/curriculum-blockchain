@@ -1,0 +1,22 @@
+// tag::FEEDBACK[]
+:filename: 01-basics/04-prerequisites-for-this-training.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+=== Prerequisites
+
+Participants should have the following prerequisite knowledge:
+
+* basic theoretical and practical database skills
+* knowledge of any modern programming language
+
+Additional knowledge that may be helpful, but is not required, for understanding advanced concepts:
+
+* distributed systems and consensus algorithms
+* basic JavaScript experience
+
+We explicitly do not require knowledge in the following fields:
+
+* cryptography, cryptocurrencies
+// end::EN[]

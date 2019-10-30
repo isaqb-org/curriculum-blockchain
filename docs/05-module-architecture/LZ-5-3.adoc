@@ -1,0 +1,16 @@
+// tag::FEEDBACK[]
+:filename: 05-module-architecture/LZ-5-3.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-5-3]]
+==== LG 5-3: Storage
+
+* understand the storage format and capacity of data on blockchains
+* know the difference between on- and off-chain storage
+* know the difference between replicated databases and decentralized storage
+* know alternative storage methods
+** able to use distributed hash tables
+** able to understand peer-to-peer storages
+// end::EN[]

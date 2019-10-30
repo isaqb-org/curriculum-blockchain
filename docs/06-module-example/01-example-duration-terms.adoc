@@ -1,0 +1,16 @@
+// tag::FEEDBACK[]
+:filename: 08-example/01-example-duration-terms.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+|===
+| Duration: 60 min. | Exercise time: 0min.
+|===
+
+Within each licensed training there must be at least one example of blockchain architecture presented, discussed and evaluated. The type and severity of the examples may differ for each training provider or depend on the interests of the participants and are not specified by iSAQB.
+
+// end::EN[]

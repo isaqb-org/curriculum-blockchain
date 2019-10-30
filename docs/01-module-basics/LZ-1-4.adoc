@@ -1,0 +1,14 @@
+// tag::FEEDBACK[]
+:filename: 01-module-basics/LZ-1-4.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-1-4]]
+==== LG 1-4: Nakamoto consensus
+
+* understand the design constraints leading to Byzantine fault tolerance
+* know the notion of "longest chain wins"
+* understand the evolution of the protocol itself by majority
+* understand the mechanisms of soft and hard forks
+// end::EN[]

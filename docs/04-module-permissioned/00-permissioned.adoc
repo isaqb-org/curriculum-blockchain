@@ -1,0 +1,20 @@
+// ====================================================
+// (c) iSAQB e.V. (https://isaqb.org)
+// ====================================================
+
+
+// tag::DE[]
+== Blockchain-Implementierungen mit Berechtigungen
+// end::DE[]
+
+// tag::EN[]
+== Permissioned blockchain implementations
+// end::EN[]
+
+include::./01-permissioned-duration-terms.adoc[{include_configuration}]
+
+=== {learning-goals}
+
+include::./LZ-4-1.adoc[{include_configuration}]
+
+include::./LZ-4-2.adoc[{include_configuration}]

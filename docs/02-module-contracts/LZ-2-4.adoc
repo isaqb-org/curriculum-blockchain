@@ -1,0 +1,18 @@
+// tag::FEEDBACK[]
+:filename: 02-module-contracts/LZ-2-4.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-2-4]]
+==== LG 2-4: Security risks and implications
+
+* know historic security flaws
+** unintended draining of the DAO contract
+** unintended destruction of Parity online wallet contracts
+* able to estimate security risks for smart contracts
+** avoiding method reentrancy
+** avoiding double spending
+* apply traditional methodologies to smart contracts
+** extensive unit testing with Truffle
+// end::EN[]

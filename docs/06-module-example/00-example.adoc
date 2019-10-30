@@ -1,0 +1,15 @@
+// ====================================================
+// (c) iSAQB e.V. (https://isaqb.org)
+// ====================================================
+
+
+// tag::DE[]
+== Beispiel
+// end::DE[]
+
+// tag::EN[]
+== Example of Blockchain Architecture
+// end::EN[]
+
+include::./01-example-duration-terms.adoc[{include_configuration}]
+

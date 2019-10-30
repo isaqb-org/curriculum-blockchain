@@ -1,0 +1,20 @@
+// tag::FEEDBACK[]
+:filename: 04-contracts/01-contracts-duration-terms.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+|===
+| Duration: 90 min. | Exercise time: 90 min.
+|===
+
+This topic area incrementally extends – based on the basic terminology – the notion of blockchains to include the ability for executing arbitrary, client-defined code.
+With Ethereum being the first and to date most mature example of this technology, it is recommended to use it as a running example.
+
+=== Essential terms
+
+Virtual Machine, instructions, gas, gas price, bytecode, online wallets, DAO, Truffle, security
+// end::EN[]

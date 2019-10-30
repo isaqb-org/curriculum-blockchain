@@ -1,0 +1,12 @@
+// tag::FEEDBACK[]
+:filename: 02-module-contracts/LZ-2-3.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-2-3]]
+==== LG 2-3: Virtual machines
+
+* know the compilation pipeline from a high-level language to bytecode
+* know basic instructions
+// end::EN[]

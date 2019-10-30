@@ -1,0 +1,14 @@
+// tag::FEEDBACK[]
+:filename: 01-module-basics/LZ-1-1.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-1-1]]
+==== LG 1-1: Definition of Blockchain Terminology
+
+* know the definition of Blockchain and DLT
+* know the main concepts and terminology of Blockchain and Distributed Ledger Technologies (DLT)
+* know the definition of Smart Contracts and Decentralised Applications (DApps)
+* understand how Blockchain Technology enabled Cryptocurrencies and Tokens
+// end::EN[]

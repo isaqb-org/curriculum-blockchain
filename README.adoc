@@ -1,0 +1,54 @@
+= https://isaqb.org[iSAQB] Advanced Level Curriculum BLOCKCHAIN
+
+:toc:
+:toc-placement!:
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+This is <<copyrighted,copyrighted work>>.
+
+== Content
+This repository contains the iSAQB Advanced Level curriculum BLOCKCHAIN in AsciiDoc.
+
+== How to contribute or participate
+Create an issue, a merge- or pull-request
+
+== How to build the documents
+
+Prerequisite: You need a Java Runtime(tm) installed.
+
+You build the output documents with gradle.
+That will produce both pdf and html output in German (DE) _and_ English (EN), unless you modify the configuration.
+
+In case you want to change that, adjust the following part of `build.gradle`:
+
+[source,groovy]
+----
+task buildDocs {
+  group 'Documentation'
+  description 'Grouping task for generating all languages in several formats'
+  dependsOn "renderNoRemarksDE", "renderNoRemarksEN", "renderWithRemarksDE", "renderWithRemarksEN"
+}
+----
+
+In the task "renderNoRemarksDE", certain attributes (aka variables) are defined that configure the corresponding output.
+
+
+
+== Maintainers
+
+This repository is currently maintained by Lars Hupel.
+It is based on https://github.com/isaqb-org/advanced-template,
+so the contributors of that project basically contributed to this one, too.
+
+
+[[copyrighted]]
+== Licensing and Copyright
+
+include::LICENSE.adoc[]

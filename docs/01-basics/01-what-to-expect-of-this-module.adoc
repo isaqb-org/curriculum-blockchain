@@ -1,0 +1,20 @@
+// tag::FEEDBACK[]
+:filename: 00-preamble/01-what-to-expect-of-this-module.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+=== What does the module “{curriculum-short}” convey?
+
+The umbrella term "blockchain" describes a set of emerging, heterogeneous technologies for designing distributed systems that – while generally assuming little to no trust between parties – are able to establish consensus about stored data and procedures.
+Pioneered as a system to allow transfer of cryptographically secure monetary tokens, blockchains have since evolved to application platforms for executing smart contracts written in domain-specific languages.
+While cryptocurrencies are usually designed to lack a central authority, many industrial use cases admit partial cooperation between parties.
+The central idea common to all blockchain implementations is that transactions can be stored in an append-only ledger that is being kept on multiple nodes, increasing resiliency and decreasing the potential for fraudulent post-hoc modifications.
+
+Participants of this module will learn to recognize and classify use cases of blockchain technology.
+They will gain a deep understanding the differences and trade-offs between their various flavours (public vs. permissioned, Proof-of-Authority/Stake/Work, smart contracts).
+Platform requirements and abilities, including languages for smart contracts and their testing and deployment, will be discussed.
+
+The {curriculum-short} module focuses on the transfer of software engineering aspects from traditional methodologies to blockchain technologies.
+Participants will be able to make informed decisions about the tooling choices and be able to design decentralized applications.
+// end::EN[]

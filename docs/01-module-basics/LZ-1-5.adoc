@@ -1,0 +1,13 @@
+// tag::FEEDBACK[]
+:filename: 01-module-basics/LZ-1-5.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-1-5]]
+==== LG 1-5: Trade-offs
+
+* able to appraise the trade-offs of a blockchain compared to a traditional architecture
+* understand the hardware resources required for Proof-of-Work
+* know the advantages and disadvantages of a distributed, no-trust approach
+// end::EN[]

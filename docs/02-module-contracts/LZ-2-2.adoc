@@ -1,0 +1,14 @@
+// tag::FEEDBACK[]
+:filename: 02-module-contracts/LZ-2-2.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-2-2]]
+==== LG 2-2: Developing smart contracts
+
+* implement and deploy smart contracts
+* call smart contracts
+** estimating transaction fees based on gas required and the gas price
+* develop, test and deploy smart contracts, for example using Truffle
+// end::EN[]

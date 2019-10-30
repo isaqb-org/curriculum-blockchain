@@ -1,0 +1,19 @@
+// tag::FEEDBACK[]
+:filename: 03-module-usecases/LZ-3-2.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-3-2]]
+==== LG 3-2: Choosing the best technology
+
+* identify criteria for uses cases that benefit from blockchain technology
+** decentralization, trust model, malicious actors, competency, longevity
+** integrity and immutability of history
+** criteria for parties to join the network, access control, onboarding, arbitration
+** privacy and security of personal data
+** anonymity, pseudonymity, identity
+* identify use cases based on functional and non-functional requirements
+* apply traditional requirement engineering techniques to blockchain use cases
+* transform business processes to a smart contract
+// end::EN[]

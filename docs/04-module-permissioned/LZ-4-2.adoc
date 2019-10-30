@@ -1,0 +1,14 @@
+// tag::FEEDBACK[]
+:filename: 04-module-permissioned/LZ-4-2.adoc
+include::../config/_feedback.adoc[]
+// end::FEEDBACK[]
+
+// tag::EN[]
+[[LG-4-2]]
+==== LG 4-2: Infrastructure
+
+* understand the infrastructure necessary for permissioned blockchains
+** X.509 and TLS are standards used for authentification and encryption
+* understand the deployment patterns and their major implications on the functioning of the network
+* be able to systematically comprehend and analyse the deployment patterns of major permissioned blockchains
+// end::EN[]

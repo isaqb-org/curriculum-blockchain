@@ -1,0 +1,24 @@
+// ====================================================
+// (c) iSAQB e.V. (https://isaqb.org)
+// ====================================================
+
+
+// tag::DE[]
+== Architecting blockchain applications
+// end::DE[]
+
+// tag::EN[]
+== Architecting blockchain applications
+// end::EN[]
+
+include::./01-architecture-duration-terms.adoc[{include_configuration}]
+
+=== {learning-goals}
+
+include::./LZ-5-1.adoc[{include_configuration}]
+
+include::./LZ-5-2.adoc[{include_configuration}]
+
+include::./LZ-5-3.adoc[{include_configuration}]
+
+include::./LZ-5-4.adoc[{include_configuration}]
