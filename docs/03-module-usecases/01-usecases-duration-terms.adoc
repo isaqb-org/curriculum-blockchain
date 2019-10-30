@@ -8,7 +8,7 @@ include::../config/_feedback.adoc[]
 
 // tag::EN[]
 |===
-| Duration: 150 min. | Exercise time: 90 min.
+| Duration: 120 min. | Exercise time: 90 min.
 |===
 
 This topic area aims to collect and classify the abundant variations of blockchain technologies that have proliferated since Bitcoin.

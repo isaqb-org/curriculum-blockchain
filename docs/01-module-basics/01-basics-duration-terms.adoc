@@ -4,14 +4,11 @@ include::../config/_feedback.adoc[]
 // end::FEEDBACK[]
 
 // tag::DE[]
-|===
-| Dauer: 300 Min. | Übungszeit: 90 Min.
-|===
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: 300 min. | Exercise time: 90 min.
+| Duration: 180 min. | Exercise time: 90 min.
 |===
 
 This topic area introduces participants to the basic components of a blockchain.
