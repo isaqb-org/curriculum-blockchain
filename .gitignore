@@ -4,4 +4,6 @@
 build
 .idea
 advanced-template.iml
-docs/learning-objectives.adoc
+.settings/org.eclipse.buildship.core.prefs
+.project
+learning-objectives.adoc
