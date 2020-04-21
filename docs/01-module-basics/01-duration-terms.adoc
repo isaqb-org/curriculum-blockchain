@@ -1,14 +1,9 @@
-// tag::FEEDBACK[]
-:filename: 03-basics/01-basics-duration-terms.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
 // tag::DE[]
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: 180 min. | Exercise time: 90 min.
+| Duration: 180 min. | Practice time: 90 min.
 |===
 
 This topic area introduces participants to the basic components of a blockchain.
@@ -16,7 +11,7 @@ Training providers may choose to any blockchain to illustrate the concepts.
 Given that Bitcoin pioneered many of these components and combined them in a way that defines blockchains to this date, it is recommended to use it as a running example.
 While Bitcoin's focus and main application is squarely a cryptocurrency, it exhibits a structure on whose basis subsequent topics can be explained.
 
-=== Essential terms
+=== Terms and Principles
 
 (cryptographic) hashing, public/private cryptography, addresses, wallets, transactions, blocks, mining, nodes, peer-to-peer networking, blockchain, cryptocurrency, (distributed) ledger, Proof-of-Work, Byzantine fault tolerance, Nakamoto consensus
 // end::EN[]

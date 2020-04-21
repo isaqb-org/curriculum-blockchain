@@ -1,21 +1,16 @@
-// tag::FEEDBACK[]
-:filename: 07-architecture/01-architecture-duration-terms.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
 // tag::DE[]
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: 150 min. | Exercise time: 90min.
+| Duration: 150 min. | Practice time: 90min.
 |===
 
 Smart contracts by themselves are not sufficient to build Blockchain-powered applications.
 They need an external infastructure powering interaction between users and contracts.
 Decentralization is the key pattern for designing robust applications.
 
-=== Essential terms
+=== Terms and Principles
 
 Decentralized applications, sidechains, state channels, light clients, ipfs, off-chain storage
 // end::EN[]

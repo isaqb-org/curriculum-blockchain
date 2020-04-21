@@ -1,9 +1,26 @@
-// tag::FEEDBACK[]
-:filename: 03-module-usecases/LZ-3-2.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
+=== {learning-goals}
+
+// tag::DE[]
+// end::DE[]
 
 // tag::EN[]
+[[LG-3-1]]
+==== LG 3-1: Feature axes
+
+* understand block mining strategies
+** Proof-of-Work
+** Proof-of-Stake
+** Proof-of-Authority
+* understand access control mechanisms
+** public, private and permissioned blockchains
+** sidechains
+** state channels
+* know consensus algorithms
+* know smart contract languages
+* oracles
+* naming services
+* understand design trade-offs of blockchain flavours
+
 [[LG-3-2]]
 ==== LG 3-2: Choosing the best technology
 
