@@ -1,3 +1,3 @@
 === {references}
 
-* Bogensperger et al.: "Die Blockchain-Technologie: Chance zur Transformation der Energiewirtschaft?", https://www.ffe.de/attachments/article/846/Blockchain_Teilbericht_UseCases.pdf
+<<bogensperger>>
