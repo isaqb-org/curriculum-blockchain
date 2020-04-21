@@ -17,7 +17,7 @@ endif::withRemarks[]
 :language: DE
 
 // ":include_configuration:" always consists of the language, optionally
-// followed by ";REMARK".
+// followed by ";REMARK"
 // additional markers might be configured here!
 :include_configuration: tags=**;{language}{remarks};!*
 

@@ -4,12 +4,16 @@
 
 
 // tag::DE[]
-== Beispiel
+== Smart Contracts
 // end::DE[]
 
 // tag::EN[]
-== Example of Blockchain Architecture
+== Smart Contracts
 // end::EN[]
 
-include::./01-example-duration-terms.adoc[{include_configuration}]
 
+include::01-duration-terms.adoc[{include_configuration}]
+
+include::02-learning-goals.adoc[{include_configuration}]
+
+include::references.adoc[{include_configuration}]

@@ -1,0 +1,46 @@
+=== {learning-goals}
+
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+[[LG-5-1]]
+==== LG 5-1: Architecting blockchain applications
+
+* understand how Blockchain works as a software component of storage, computation and communication.
+* know processes to design Blockchain applications
+* know patterns for interaction, data management, security and contract structure.
+* understand how to integrate Blockchain into a larger system.
+* understand the principles of a Decentralised Application (DApp)
+** a smart contract that runs on the blockchain
+** an open source web application that interacts with the chain on behalf of the user
+* undestand how to incentivize rational actors to behave a certain way using game theory
+
+[[LG-5-2]]
+==== LG 5-2: Scalability
+
+* understand the scalability challenges of public and permissioned blockchain implementations
+** understand the correlation between trust and bandwidth
+** know the performance trade-offs of PoW, PoS and PoA strategies
+** know hardware implementations of mining
+* estimate the required computing power on server and client sides
+** able to design applications with light clients
+
+[[LG-5-3]]
+==== LG 5-3: Storage
+
+* understand the storage format and capacity of data on blockchains
+* know the difference between on- and off-chain storage
+* know the difference between replicated databases and decentralized storage
+* know alternative storage methods
+** able to use distributed hash tables
+** able to understand peer-to-peer storages
+
+[[LG-5-4]]
+==== LG 5-4: Privacy & Governance
+
+* understand the durability of transactions on the blockchain
+* design applications with regulatory compliance in mind
+** use hashes and salts for pseudonyms
+** know of zero-knowledge proofs
+// end::EN[]

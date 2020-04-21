@@ -1,0 +1,19 @@
+// ====================================================
+// (c) iSAQB e.V. (https://isaqb.org)
+// ====================================================
+
+
+// tag::DE[]
+== Überblick und Grundlagen der Blockchain
+// end::DE[]
+
+// tag::EN[]
+== Blockchain overview and basics
+// end::EN[]
+
+
+include::01-duration-terms.adoc[{include_configuration}]
+
+include::02-learning-goals.adoc[{include_configuration}]
+
+include::references.adoc[{include_configuration}]

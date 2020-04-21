@@ -11,14 +11,7 @@
 == Architecting blockchain applications
 // end::EN[]
 
-include::./01-architecture-duration-terms.adoc[{include_configuration}]
 
-=== {learning-goals}
+include::01-duration-terms.adoc[{include_configuration}]
 
-include::./LZ-5-1.adoc[{include_configuration}]
-
-include::./LZ-5-2.adoc[{include_configuration}]
-
-include::./LZ-5-3.adoc[{include_configuration}]
-
-include::./LZ-5-4.adoc[{include_configuration}]
+include::02-learning-goals.adoc[{include_configuration}]

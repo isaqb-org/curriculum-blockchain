@@ -1,14 +1,9 @@
-// tag::FEEDBACK[]
-:filename: 06-permissioned/01-permissioned-duration-terms.adoc
-include::../config/_feedback.adoc[]
-// end::FEEDBACK[]
-
 // tag::DE[]
 // end::DE[]
 
 // tag::EN[]
 |===
-| Duration: 90 min. | Exercise time: 30 min.
+| Duration: 90 min. | Practice time: 30 min.
 |===
 
 For a lot of business use cases, permissioned blockchains are likely the only reasonable choice.
@@ -17,7 +12,7 @@ But as opposed to the public blockchain space that is domineered by a few implem
 the permissioned space usually offers a lot more flexibility to tailor a solution.
 This topic area should provide an overview of major concepts in this space.
 
-=== Essential terms
+=== Terms and Principles
 
 Corda, Hyperledger Fabric, Ethereum, X.509, TLS
 // end::EN[]

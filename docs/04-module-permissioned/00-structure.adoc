@@ -11,10 +11,7 @@
 == Permissioned blockchain implementations
 // end::EN[]
 
-include::./01-permissioned-duration-terms.adoc[{include_configuration}]
 
-=== {learning-goals}
+include::01-duration-terms.adoc[{include_configuration}]
 
-include::./LZ-4-1.adoc[{include_configuration}]
-
-include::./LZ-4-2.adoc[{include_configuration}]
+include::02-learning-goals.adoc[{include_configuration}]

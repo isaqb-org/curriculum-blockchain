@@ -1,0 +1,47 @@
+=== {learning-goals}
+
+// tag::DE[]
+// end::DE[]
+
+// tag::EN[]
+[[LG-1-1]]
+==== LG 1-1: Definition of Blockchain Terminology
+
+* know the definition of Blockchain and DLT
+* know the main concepts and terminology of Blockchain and Distributed Ledger Technologies (DLT)
+* know the definition of Smart Contracts and Decentralised Applications (DApps)
+* understand how Blockchain Technology enabled Cryptocurrencies and Tokens
+
+[[LG-1-2]]
+==== LG 1-2: Basic operation of a blockchain
+
+* understand the interaction of all components to form a coherent system
+** a peer-to-peer network composed of nodes that propagate transactions and blocks
+** a miner as a special type of node that forges blocks that include transactions
+** a wallet as a piece of software that manages addresses
+* able to navigate the complex terminology of blockchains
+** the role of Bitcoin (or any other blockchain) as a stereotypical cryptocurrency
+** the generalized role of the blockchain as a distributed, append-only ledger
+
+[[LG-1-3]]
+==== LG 1-3: Cryptographic primitives
+
+* know the cryptographic properties of hashing and digital signatures
+** a hash function can be computed easily, but finding the inverse is computationally infeasible
+** a signature algorithm requires a private key to produce a signature, but only a public key to verify
+
+[[LG-1-4]]
+==== LG 1-4: Nakamoto consensus
+
+* understand the design constraints leading to Byzantine fault tolerance
+* know the notion of "longest chain wins"
+* understand the evolution of the protocol itself by majority
+* understand the mechanisms of soft and hard forks
+
+[[LG-1-5]]
+==== LG 1-5: Trade-offs
+
+* able to appraise the trade-offs of a blockchain compared to a traditional architecture
+* understand the hardware resources required for Proof-of-Work
+* know the advantages and disadvantages of a distributed, no-trust approach
+// end::EN[]
