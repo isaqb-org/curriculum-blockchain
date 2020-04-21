@@ -17,7 +17,7 @@ This section contains references that are cited in the curriculum.
 
 - [[[androulaki,Androulaki+2018]]] Elli Androulaki et al.: Hyperledger fabric: a distributed operating system for permissioned blockchains. EuroSys, 2018. https://doi.org/10.1145/3190508.3190538
 - [[[antonopoulos,Antonopoulos 2014]]] Andreas Antonopoulos: Mastering Bitcoin: Unlocking Digital Cryptocurrencies. O'Reilly, 2014.
-- [[[antonopoulos2,Antonopoulos+2018]]] Andreas Antonopoulos, Gavin Wood: Mastering Ethereum: Building Smart Contracts and Dapps. O'Reilly, 2018.
+- [[[antonopoulosB,Antonopoulos+2018]]] Andreas Antonopoulos, Gavin Wood: Mastering Ethereum: Building Smart Contracts and Dapps. O'Reilly, 2018.
 
 **B**
 
