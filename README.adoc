@@ -11,7 +11,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-== Status 
+== Status
 image:https://github.com/isaqb-org/curriculum-blockchain/workflows/CI/badge.svg?branch=master["CI"]
 image:https://img.shields.io/github/last-commit/isaqb-org/curriculum-blockchain/master.svg["Last commit"]
 image:https://img.shields.io/github/contributors/isaqb-org/curriculum-blockchain.svg["Contributors",link="https://github.com/isaqb-org/curriculum-blockchain/graphs/contributors"]
@@ -23,6 +23,8 @@ This is <<copyrighted,copyrighted work>>.
 
 == Content
 This repository contains the iSAQB Advanced Level curriculum BLOCKCHAIN in AsciiDoc.
+
+toc::[]
 
 == How to contribute or participate
 Create an issue, a merge- or pull-request

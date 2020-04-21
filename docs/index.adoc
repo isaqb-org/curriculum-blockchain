@@ -23,12 +23,12 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-blockchai
 
 | English
 |
-| link:curriculum-blockchain_en.html[HTML]
-| link:curriculum-blockchain_en.pdf[PDF]
+| link:curriculum-blockchain-en.html[HTML]
+| link:curriculum-blockchain-en.pdf[PDF]
 
 | English
 | ✔️
-| link:curriculum-blockchain_remarks_en.html[HTML]
-| link:curriculum-blockchain_remarks_en.pdf[PDF]
+| link:curriculum-blockchain-remarks-en.html[HTML]
+| link:curriculum-blockchain-remarks-en.pdf[PDF]
 
 |===
