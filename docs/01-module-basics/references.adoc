@@ -1,3 +1,3 @@
 === {references}
 
-* Andreas Antonopoulos: "Mastering Bitcoin: Unlocking Digital Cryptocurrencies"
+<<antonopoulos>>
