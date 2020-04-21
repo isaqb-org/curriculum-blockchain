@@ -436,7 +436,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Curriculum für<br><br>Certified Professional for<br>Software Architecture (CPSA)<sup>&#174;</sup><br><em>Advanced Level</em>: <br> Modul<br>BLOCKCHAIN<br><br>Blockchain</h1>
 <div class="details">
 <span id="revnumber">version 2019.1-DE,</span>
-<span id="revdate">20. April 2020</span>
+<span id="revdate">21. April 2020</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -449,7 +449,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</a></li>
 </ul>
 </li>
-<li><a href="#_grundlegendes">Grundlegendes</a></li>
+<li><a href="#_grundlegendes">Grundlegendes</a>
+<ul class="sectlevel2">
+<li><a href="#_was_vermittelt_das_modul_blockchain">Was vermittelt das Modul „BLOCKCHAIN“?</a></li>
+<li><a href="#_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</a></li>
+<li><a href="#_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</a></li>
+<li><a href="#_voraussetzungen">Voraussetzungen</a></li>
+<li><a href="#_gliederung_des_lehrplans">Gliederung des Lehrplans</a></li>
+<li><a href="#_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</a></li>
+</ul>
+</li>
 <li><a href="#_überblick_und_grundlagen_der_blockchain">1. Überblick und Grundlagen der Blockchain</a>
 <ul class="sectlevel2">
 <li><a href="#_lernziele">1.1. Lernziele</a></li>
@@ -478,7 +487,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_lernziele_5">5.1. Lernziele</a></li>
 </ul>
 </li>
-<li><a href="#_beispiel">6. Beispiel</a></li>
+<li><a href="#_beispiele">6. Beispiele</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte">6.1. Begriffe und Konzepte</a></li>
+</ul>
+</li>
 <li><a href="#_referenzen_4">Referenzen</a></li>
 </ul>
 </div>
@@ -487,19 +500,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div style="page-break-after: always;"></div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/00-preamble/copyright.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:00-preamble/copyright.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="paragraph">
 <p><strong>&#169; (Copyright), International Software Architecture Qualification Board e. V.
-(iSAQB<sup>&#174;</sup> e. V.) 2019</strong></p>
+(iSAQB<sup>&#174;</sup> e. V.) 2020</strong></p>
 </div>
 <div class="paragraph">
 <p>Die Nutzung des Lehrplans ist nur unter den nachfolgenden Voraussetzungen erlaubt:</p>
@@ -534,21 +537,6 @@ Alle Rechte an diesen Copyrights stehen ausschließlich dem International Softwa
 <p>Die Abkürzung "e. V." ist Teil des offiziellen Namens des iSAQB und steht für "eingetragener Verein", der seinen Status als juristische Person nach deutschem Recht beschreibt.
 Der Einfachheit halber wird iSAQB e. V. im Folgenden ohne die Verwendung dieser Abkürzung als iSAQB bezeichnet.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>This version of this document has been produced with comments (like this one) enabled.
-It is <strong>NOT</strong> intended for public distribution or publication, but primarily for internal iSAQB purposes.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
 <div style="page-break-after: always;"></div>
 <!-- toc disabled -->
 <div style="page-break-after: always;"></div>
@@ -563,16 +551,6 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_einführung_allgemeines_zum_isaqb_advanced_level">Einführung: Allgemeines zum iSAQB Advanced Level</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/00-preamble/01-what-to-expect-of-an-advanced-level-module.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:00-preamble/01-what-to-expect-of-an-advanced-level-module.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_was_vermittelt_ein_advanced_level_modul">Was vermittelt ein Advanced Level Modul?</h3>
 <div class="ulist">
@@ -584,16 +562,6 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <p>Die Zertifizierung erfolgt als Hausarbeit. Die Bewertung und mündliche Prüfung wird durch vom iSAQB benannte Experten vorgenommen.</p>
 </li>
 </ul>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/00-preamble/02-advanced-level-knowledge.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:00-preamble/02-advanced-level-knowledge.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
 </div>
 </div>
 <div class="sect2">
@@ -617,16 +585,6 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 </li>
 </ul>
 </div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/00-preamble/03-prerequisites.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:00-preamble/03-prerequisites.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</h3>
@@ -646,7 +604,7 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 </div>
 </li>
 <li>
-<p>Aus- und Weiterbildung im Rahmen von iSAQB-Advanced-Level-Schulungen im Umfang von mindestens 70 Credit Points aus mindestens zwei unterschiedlichen Kompetenzbereichen</p>
+<p>Aus- und Weiterbildung im Rahmen von iSAQB-Advanced-Level-Schulungen im Umfang von mindestens 70 Credit Points aus mindestens drei unterschiedlichen Kompetenzbereichen</p>
 <div class="ulist">
 <ul>
 <li>
@@ -674,153 +632,92 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_grundlegendes">Grundlegendes</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/00-preamble/01-what-to-expect-of-this-module.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
+<div class="sect2">
+<h3 id="_was_vermittelt_das_modul_blockchain">Was vermittelt das Modul „BLOCKCHAIN“?</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</h3>
+<div class="paragraph">
+<p>Die unten genannten Zeiten sind Empfehlungen. Die Dauer einer Schulung zum Modul BLOCKCHAIN
+sollte mindestens 3 Tage betragen, kann aber länger sein.
+Anbieter können sich durch Dauer, Didaktik, Art und Aufbau der Übungen sowie der detaillierten Kursgliederung voneinander unterscheiden.
+Insbesondere die Art der Beispiele und Übungen lässt der Lehrplan komplett offen.</p>
+</div>
+<div class="paragraph">
+<p>Lizenzierte Schulungen zu BLOCKCHAIN tragen zur Zulassung zur abschließenden Advanced-Level-Zertifizierungsprüfung folgende Credit Points) bei:</p>
+</div>
+<table class="tableblock frame-none grid-rows stripes-none stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Methodische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10 Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20 Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kommunikative Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0 Punkte</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_voraussetzungen">Voraussetzungen</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_gliederung_des_lehrplans">Gliederung des Lehrplans</h3>
+<div class="paragraph">
+<p>Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschrieben:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Begriffe/Konzepte</strong>: Wesentliche Kernbegriffe dieses Themas.</p>
+</li>
+<li>
+<p><strong>Unterrichts-/Übungszeit</strong>: Legt die Unterrichts- und Übungszeit fest, die für dieses Thema bzw. dessen Übung in einer akkreditierten Schulung mindestens aufgewendet werden muss.</p>
+</li>
+<li>
+<p><strong>Lernziele</strong>: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen.</p>
 </div>
 </div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:00-preamble/01-what-to-expect-of-this-module.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-basics/02-curriculum-structure-and-chronological-breakdown.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-basics/02-curriculum-structure-and-chronological-breakdown.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-basics/03-timing-didactics-and-more.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-basics/03-timing-didactics-and-more.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-basics/04-prerequisites-for-this-training.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-basics/04-prerequisites-for-this-training.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-basics/05-curriculum-outline.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-basics/05-curriculum-outline.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-basics/06-complementary-information.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-basics/06-complementary-information.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
+<div class="sect2">
+<h3 id="_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</h3>
+<div class="paragraph">
+<p>Soweit für das Verständnis des Lehrplans erforderlich, haben wir Fachbegriffe ins <a href="https://github.com/isaqb-org/glossary">iSAQB-Glossar</a> aufgenommen, definiert und bei Bedarf durch die Übersetzungen der Originalliteratur ergänzt.</p>
 </div>
 <div style="page-break-after: always;"></div>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_überblick_und_grundlagen_der_blockchain">1. Überblick und Grundlagen der Blockchain</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/03-basics/01-basics-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:03-basics/01-basics-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_lernziele">1.1. Lernziele</h3>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-module-basics/LZ-1-1.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-module-basics/LZ-1-1.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-module-basics/LZ-1-2.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-module-basics/LZ-1-2.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-module-basics/LZ-1-3.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-module-basics/LZ-1-3.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-module-basics/LZ-1-4.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-module-basics/LZ-1-4.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/01-module-basics/LZ-1-5.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:01-module-basics/LZ-1-5.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/03-basics/references.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:03-basics/references.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
+
 </div>
 <div class="sect2">
 <h3 id="_referenzen">1.2. Referenzen</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Andreas Antonopoulos: "Mastering Bitcoin: Unlocking Digital Cryptocurrencies"</p>
-</li>
-</ul>
+<div class="paragraph">
+<p><a href="#antonopoulos">[Antonopoulos 2014]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -829,80 +726,14 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_smart_contracts">2. Smart Contracts</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/04-contracts/01-contracts-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:04-contracts/01-contracts-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_lernziele_2">2.1. Lernziele</h3>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/02-module-contracts/LZ-2-1.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:02-module-contracts/LZ-2-1.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/02-module-contracts/LZ-2-2.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:02-module-contracts/LZ-2-2.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/02-module-contracts/LZ-2-3.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:02-module-contracts/LZ-2-3.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/02-module-contracts/LZ-2-4.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:02-module-contracts/LZ-2-4.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/04-contracts/references.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:04-contracts/references.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
+
 </div>
 <div class="sect2">
 <h3 id="_referenzen_2">2.2. Referenzen</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Andreas Antonopoulos, Gavin Wood: "Mastering Ethereum: Building Smart Contracts and Dapps"</p>
-</li>
-<li>
-<p>Consensys: "Ethereum Smart Contract Best Practices, <a href="https://consensys.github.io/smart-contract-best-practices/known_attacks/" class="bare">https://consensys.github.io/smart-contract-best-practices/known_attacks/</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p><a href="#antonopoulosB">[Antonopoulos+2018]</a>, <a href="#consensys">[Consensys 2016]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -911,57 +742,14 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_arten_von_blockchains_und_ihre_anwendungsfälle">3. Arten von Blockchains und ihre Anwendungsfälle</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-usecases/01-usecases-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-usecases/01-usecases-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_lernziele_3">3.1. Lernziele</h3>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/03-module-usecases/LZ-3-1.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:03-module-usecases/LZ-3-1.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/03-module-usecases/LZ-3-2.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:03-module-usecases/LZ-3-2.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-usecases/references.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-usecases/references.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
+
 </div>
 <div class="sect2">
 <h3 id="_referenzen_3">3.2. Referenzen</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Bogensperger et al.: "Die Blockchain-Technologie: Chance zur Transformation der Energiewirtschaft?", <a href="https://www.ffe.de/attachments/article/846/Blockchain_Teilbericht_UseCases.pdf" class="bare">https://www.ffe.de/attachments/article/846/Blockchain_Teilbericht_UseCases.pdf</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p><a href="#bogensperger">[Bogensperger+2018]</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -970,38 +758,8 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_blockchain_implementierungen_mit_berechtigungen">4. Blockchain-Implementierungen mit Berechtigungen</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/06-permissioned/01-permissioned-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:06-permissioned/01-permissioned-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_lernziele_4">4.1. Lernziele</h3>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/04-module-permissioned/LZ-4-1.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:04-module-permissioned/LZ-4-1.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/04-module-permissioned/LZ-4-2.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:04-module-permissioned/LZ-4-2.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -1009,85 +767,39 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="sect1">
 <h2 id="_architecting_blockchain_applications">5. Architecting blockchain applications</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/07-architecture/01-architecture-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:07-architecture/01-architecture-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div class="sect2">
 <h3 id="_lernziele_5">5.1. Lernziele</h3>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-module-architecture/LZ-5-1.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-module-architecture/LZ-5-1.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-module-architecture/LZ-5-2.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-module-architecture/LZ-5-2.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-module-architecture/LZ-5-3.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-module-architecture/LZ-5-3.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/05-module-architecture/LZ-5-4.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:05-module-architecture/LZ-5-4.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_beispiel">6. Beispiel</h2>
+<h2 id="_beispiele">6. Beispiele</h2>
 <div class="sectionbody">
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/08-example/01-example-duration-terms.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 60 min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 0 min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Dieser Abschnitt ist nicht prüfungsrelevant.</p>
 </div>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte">6.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für BLOCKCHAIN vorgestellt werden.</p>
 </div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:08-example/01-example-duration-terms.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
+<div class="paragraph">
+<p>Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. den Interessen der Teilnehmer abhängen und werden seitens iSAQB nicht vorgegeben.</p>
 </div>
 <div style="page-break-after: always;"></div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/blob/master/docs/99-references/00-references.adoc"><img src="https://img.shields.io/badge/improve-this%20doc-orange.svg" alt="improve this%20doc orange"></a>
-</div>
-</div>
-<div class="imageblock right">
-<div class="content">
-<a class="image" href="https://github.com/isaqb-org/curriculum-blockchain/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23page:99-references/00-references.adoc"><img src="https://img.shields.io/badge/create-an%20issue-blue.svg" alt="create an%20issue blue"></a>
-</div>
 </div>
 </div>
 </div>
@@ -1097,46 +809,124 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div class="paragraph">
 <p>Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum referenziert werden.</p>
 </div>
+<div class="paragraph">
+<p><strong>A</strong></p>
+</div>
 <div class="ulist bibliography">
 <ul class="bibliography">
 <li>
-<p>Xiwei Xu, Ingo Weber, Mark Staples - Architecture for Blockchain Applications (2019, Springer)</p>
+<p><a id="androulaki"></a>[Androulaki+2018] Elli Androulaki et al.: Hyperledger fabric: a distributed operating system for permissioned blockchains. EuroSys, 2018. <a href="https://doi.org/10.1145/3190508.3190538" class="bare">https://doi.org/10.1145/3190508.3190538</a></p>
 </li>
 <li>
-<p>Richard Gendal Brown - The Corda Platform: An Introduction</p>
+<p><a id="antonopoulos"></a>[Antonopoulos 2014] Andreas Antonopoulos: Mastering Bitcoin: Unlocking Digital Cryptocurrencies. O&#8217;Reilly, 2014.</p>
 </li>
 <li>
-<p>Mike Hearn - Corda: A distributed ledger</p>
+<p><a id="antonopoulosB"></a>[Antonopoulos+2018] Andreas Antonopoulos, Gavin Wood: Mastering Ethereum: Building Smart Contracts and Dapps. O&#8217;Reilly, 2018.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>B</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="badr"></a>[Badr 2018] Bellaj Badr: Blockchain By Example. Packt, 2018.</p>
 </li>
 <li>
-<p>Patrick Rosenberger - Bitcoin und Blockchain (2018, Springer Berlin Heidelberg)</p>
+<p><a id="bartholomae"></a>[Bartholomae+2016] Florian Bartholomae, Marcus Wiens: Spieltheorie: Ein anwendungsorientiertes Lehrbuch. Springer Gabler, 2016.</p>
 </li>
 <li>
-<p>Bellaj Badr - Blockchain By Example (2018, Packt)</p>
+<p><a id="bashir"></a>[Bashir 2017] Imran Bashir: Mastering Blockchain. Packt, 2017.</p>
 </li>
 <li>
-<p>Imran Bashir - Mastering Blockchain (2017, Packt)</p>
+<p><a id="bogensperger"></a>[Bogensperger+2018] Alexander Bogensperger, Andreas Zeiselmair, Michael Hinterstocker, Christa Dufter: Die Blockchain-Technologie: Chance zur Transformation der Energiewirtschaft? Studie der Forschungsstelle für Energiewirtschaft e.V., 2018. <a href="https://www.ffe.de/attachments/article/846/Blockchain_Teilbericht_UseCases.pdf" class="bare">https://www.ffe.de/attachments/article/846/Blockchain_Teilbericht_UseCases.pdf</a></p>
 </li>
 <li>
-<p>Eric Traub - Learn Blockchain Programming with JavaScript (2018)</p>
+<p><a id="brown"></a>[Brown 2018] Richard Gendal Brown: The Corda Platform: An Introduction. R3 Whitepaper, 2018. <a href="https://www.corda.net/content/corda-platform-whitepaper.pdf" class="bare">https://www.corda.net/content/corda-platform-whitepaper.pdf</a></p>
 </li>
 <li>
-<p>Florian Bartholomae, Marcus Wiens - Spieltheorie: Ein anwendungsorientiertes Lehrbuch (2016, Gabler Verlag)</p>
+<p><a id="buterin"></a>[Buterin+2015] Vitalik Buterin et al.: A Next-Generation Smart Contract and Decentralized Application Platform. Ethereum Whitepaper, 2015 (with continuous updates, retrieved Apr 2020). <a href="https://github.com/ethereum/wiki/wiki/White-Paper" class="bare">https://github.com/ethereum/wiki/wiki/White-Paper</a></p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>C</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
 <li>
-<p>Christian Kanzow, Alexandra Schwartz - Spieltheorie: Theorie und Verfahren zur Lösung von Nash- und verallgemeinerten Nash-Gleichgewichtsproblemen (2018, Springer International)</p>
+<p><a id="consensys"></a>[Consensys 2016] Consensys (various authors): Ethereum Smart Contract Best Practices. Consensys, 2016 (with continuous updates, retrieved Apr 2020). <a href="https://consensys.github.io/smart-contract-best-practices/known_attacks/" class="bare">https://consensys.github.io/smart-contract-best-practices/known_attacks/</a></p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>H</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
 <li>
-<p>Karl Wüst, Do you Need a Blockchain?: <a href="https://allquantor.at/blockchainbib/pdf/wust2017do.pdf" class="bare">https://allquantor.at/blockchainbib/pdf/wust2017do.pdf</a></p>
+<p><a id="hearn"></a>[Hearn 2019] Mike Hearn, Richard Gendal Brown: Corda: A distributed ledger. R3 Whitepaper, 2019. <a href="https://www.r3.com/wp-content/uploads/2019/08/corda-technical-whitepaper-August-29-2019.pdf" class="bare">https://www.r3.com/wp-content/uploads/2019/08/corda-technical-whitepaper-August-29-2019.pdf</a></p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>K</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
 <li>
-<p>Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System: <a href="https://bitcoin.org/bitcoin.pdf" class="bare">https://bitcoin.org/bitcoin.pdf</a></p>
+<p><a id="kanzow"></a>[Kanzow+2018] Christian Kanzow, Alexandra Schwartz: Spieltheorie: Theorie und Verfahren zur Lösung von Nash- und verallgemeinerten Nash-Gleichgewichtsproblemen. Springer, 2018.</p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>N</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
 <li>
-<p>Vitalik Buterin, A Next-Generation Smart Contract and Decentralized Application Platform: <a href="https://github.com/ethereum/wiki/wiki/White-Paper" class="bare">https://github.com/ethereum/wiki/wiki/White-Paper</a></p>
+<p><a id="nakamoto"></a>[Nakamoto 2009] Satoshi Nakamoto: Bitcoin: A Peer-to-Peer Electronic Cash System. Bitcoin Whitepaper, 2009. <a href="https://bitcoin.org/bitcoin.pdf" class="bare">https://bitcoin.org/bitcoin.pdf</a></p>
 </li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>R</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
 <li>
-<p>E. Androulaki et al., Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains <a href="http://arxiv.org/abs/1801.10228" class="bare">http://arxiv.org/abs/1801.10228</a></p>
+<p><a id="rosenberger"></a>[Rosenberger 2019] Patrick Rosenberger: Bitcoin und Blockchain. Springer, 2018.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>T</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="traub"></a>[Traub 2018] Eric Traub: Learn Blockchain Programming with JavaScript. Packt, 2018.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>W</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="wuest"></a>[Wüst+2018] Karl Wüst, Arthur Gervais: Do you Need a Blockchain? Crypto Valley Conference on Blockchain Technology (CVCBT), 2018. <a href="https://doi.org/10.1109/CVCBT.2018.00011" class="bare">https://doi.org/10.1109/CVCBT.2018.00011</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>X</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="xu"></a>[Xiwei+2019] Xiwei Xu, Ingo Weber, Mark Staples: Architecture for Blockchain Applications. Springer, 2019.</p>
 </li>
 </ul>
 </div>
@@ -1146,7 +936,7 @@ It is <strong>NOT</strong> intended for public distribution or publication, but 
 <div id="footer">
 <div id="footer-text">
 Version 2019.1-DE<br>
-Last updated 2020-04-20 19:22:49 UTC
+Last updated 2020-04-21 14:09:39 UTC
 </div>
 </div>
 </body>
