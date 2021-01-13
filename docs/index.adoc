@@ -1,5 +1,7 @@
-= image:images/isaqb-logo-150px.jpg[] Certified Professional for Software Architecture^(R)^ (CPSA)
-- BLOCKCHAIN Curriculum -
+include::config/setup.adoc[]
+
+= image:isaqb-logo-150px.jpg[]Certified Professional for Software Architecture^(R)^ (CPSA)
+Curriculum {curriculum-name} [{curriculum-short}]
 
 The international Software Architecture Qualification Board (link:https://isaqb.org[iSAQB]) defines curricula on several levels for software architects.
 
@@ -19,16 +21,16 @@ image:https://img.shields.io/github/issues-closed/isaqb-org/curriculum-blockchai
 
 
 |===
-| Version | Comments | HTML | PDF
+| Version | HTML | PDF
+
+| German
+| currently not available
+// link:{curriculumFileName}-de.html[HTML]
+| currently not available
+// link:{curriculumFileName}-de.pdf[PDF]
 
 | English
-|
-| link:curriculum-blockchain-en.html[HTML]
-| link:curriculum-blockchain-en.pdf[PDF]
-
-| English
-| ✔️
-| link:curriculum-blockchain-remarks-en.html[HTML]
-| link:curriculum-blockchain-remarks-en.pdf[PDF]
+| link:{curriculumFileName}-en.html[HTML]
+| link:{curriculumFileName}-en.pdf[PDF]
 
 |===
