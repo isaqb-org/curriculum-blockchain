@@ -29,32 +29,6 @@ This repository contains the iSAQB Advanced Level curriculum BLOCKCHAIN in Ascii
 
 toc::[]
 
-== How to contribute or participate
-Create an issue, a merge- or pull-request
-
-== How to build the documents
-
-Prerequisite: You need a Java Runtime(tm) installed.
-
-You build the output documents with gradle.
-That will produce both pdf and html output in German (DE) _and_ English (EN), unless you modify the configuration.
-
-In case you want to change that, adjust the following part of `build.gradle`:
-
-[source,groovy]
-----
-task buildDocs {
-  group 'Documentation'
-  description 'Grouping task for generating all languages in several formats'
-  dependsOn "includeLearningObjectives", "renderDE", "renderEN"
-}
-----
-
-In the task "renderDE", certain attributes (aka variables) are defined that configure the corresponding output.
-
-== Additional translations/languages
-include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
-
 == Maintainers
 
 This repository is currently maintained by Lars Hupel.
